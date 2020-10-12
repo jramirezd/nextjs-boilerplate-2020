@@ -1,0 +1,49 @@
+button, .cta, input[type="submit"]{
+    padding: $s-16 $s-24;
+    color: #fff;
+    background-color: $pc;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    &.alternative{
+      background-color: $tc;
+    }
+    @include media('tablet'){
+      cursor: pointer;
+      &:hover{
+        background-color: $text;
+        color: white;
+      }
+    }
+  }
+.big-cta{
+    background-color: $pc;
+    color: $white;
+    text-transform: uppercase;
+    font-weight: 300;
+    @include media('tablet'){
+      cursor: pointer;
+      &:hover{
+        background-color: $text;
+        color: white;
+      }
+    }
+}
+.btn-transparent{
+    font-size: $f-14;
+    background-color: transparent;
+    text-align: center;
+    line-height: $f-22;
+    border: 1px solid $lines;
+    border-radius: 4px;
+}
+.cta-white{
+  background-color: $white;
+  color: $text_1;
+  @include media('tablet'){
+    &:hover{
+      color: $lines;
+      background-color: $text_1;
+    }
+  }
+}

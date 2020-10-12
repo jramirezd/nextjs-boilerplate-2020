@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "scope": "jrd",
+  "alias": ["jrboilerplate"],
+  "github": {
+    "enabled": false
+  },
+  "env": {
+    "NODE_ENV": "production",
+    "NODE_PATH": "/",
+    "API_URL": ""
+  },
+  "build": {
+    "env": {
+      "NODE_ENV": "production",
+      "NODE_PATH": "/",
+      "API_URL": ""
+    }
+  },
+  "builds": [
+    {
+      "src": "next.config.js",
+      "use": "@now/next"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/favicon.ico",
+      "dest": "/public/favicon.ico"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer renders the footer as expected 1`] = `
+<footer
+  className="Footer"
+>
+  <div>
+    Test footer
+  </div>
+</footer>
+`;

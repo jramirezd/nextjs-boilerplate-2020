@@ -1,0 +1,11 @@
+main{
+    margin-top: 48px;
+    padding: $s-16;
+    @include media('tablet'){
+        max-width: $desktop;
+        margin: 48px auto;
+    }
+    h1{
+        margin-bottom: 24px;
+    }
+}
